@@ -1,9 +1,16 @@
 {
-  "name": "plural",
+  "name": "pluralized",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js Module that returns plural of any noun",
   "main": "index.js",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "typescript",
+    "pluralize",
+    "plural",
+    "mypluralize",
+    "ts"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "mocha --reporter spec"
