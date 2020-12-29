@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "nyc npm run test"
   },
   "author": "Daim Khan",
   "license": "MPL-2.0",
@@ -32,6 +33,7 @@
   },
   "homepage": "https://github.com/Daim-Nickel-Penny/plural#readme",
   "dependencies": {
+    "nyc": "^15.1.0",
     "pluralize": "^8.0.0"
   }
 }
